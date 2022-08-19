@@ -36,3 +36,18 @@ body{
     background: #262626;
     outline: 20px 5px;
 }
+@media all and (max-width:1000px){
+    .menu-area ul{
+        flex-wrap: wrap;
+    }
+    .menu-area li{
+        flex: 1 1 50%;
+    }
+    
+}
+@media all and (max-width:500px){
+    .menu-area li{
+        flex-basis: 100%;
+        
+    }
+}
