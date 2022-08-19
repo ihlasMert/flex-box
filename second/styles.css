@@ -1,0 +1,38 @@
+body{
+    background: greenyellow;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0;
+    padding: 50px auto;
+}
+.menu-area ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.menu-area li{
+    flex: 3;
+
+}
+.menu-area a{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transition: .6s;
+    color: aqua;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: none;
+    background: #262626;
+    outline: 20px 5px;
+}
